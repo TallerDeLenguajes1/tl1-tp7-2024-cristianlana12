@@ -13,7 +13,7 @@ namespace GestionEmpleados
         private string nombre;
         private string apellido;
         private DateTime fechaNacimiento;
-        private string estadoCivil;
+        private char estadoCivil;
         private DateTime fechaIngresoEmpresa;
         private double sueldoBasico;
         private Cargo cargoEmpleado;
