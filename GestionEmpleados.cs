@@ -10,12 +10,20 @@ namespace GestionEmpleados
         }
     class Empleado
     {
-        private string Nombre;
-        private string Apellido;
-        private DateTime FechaNacimiento;
-        private string EstadoCivil;
-        private DateTime FechaIngresoEmpresa;
-        private double SueldoBasico;
-        private Cargo CargoEmpleado;
+        private string nombre;
+        private string apellido;
+        private DateTime fechaNacimiento;
+        private string estadoCivil;
+        private DateTime fechaIngresoEmpresa;
+        private double sueldoBasico;
+        private Cargo cargoEmpleado;
+
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Apellido { get => apellido; set => apellido = value; }
+        public DateTime FechaNacimiento { get => fechaNacimiento; set => fechaNacimiento = value; }
+        public string EstadoCivil { get => estadoCivil; set => estadoCivil = value; }
+        public DateTime FechaIngresoEmpresa { get => fechaIngresoEmpresa; set => fechaIngresoEmpresa = value; }
+        public double SueldoBasico { get => sueldoBasico; set => sueldoBasico = value; }
+        public Cargo CargoEmpleado { get => cargoEmpleado; set => cargoEmpleado = value; }
     }
 }
